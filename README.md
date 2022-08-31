@@ -7,28 +7,34 @@ This project is a Tic-Tac-Toe web application where the user can play against a 
 ## How It Works/Feature Breakdown
 
 0. Board Set Up (newGame(), updateVisualBoard())
-    The game is dependent on 2 different boards: the virtualBoard and visualBoard.
-    virtualBoard - an array that has spaces for 9 boxes (AKA the 9 squares for tic tac toe)
-    visualBoard - a list of the DOM elements that represent the tic tac toe board that users can interact with
-    The visualBoard will be updated as the virtualBoard is updated based on user input.
+
+The game is dependent on 2 different boards: the virtualBoard and visualBoard.
+virtualBoard - an array that has spaces for 9 boxes (AKA the 9 squares for tic tac toe)
+visualBoard - a list of the DOM elements that represent the tic tac toe board that users can interact with
+The visualBoard will be updated as the virtualBoard is updated based on user input.
 
 1. Coin Toss (userStarts())
-    The beginning move in the game will be determined by a coin toss.
-    1 - user starts
-    0 - computer starts
+
+The beginning move in the game will be determined by a coin toss.
+1 - user starts
+0 - computer starts
 
 2. Take Turns to Play AKA Tic-Tac-Toe (play(e), computerPlay())
-    If the user starts, the app will wait for the user to click on a square that they want to mark. If the computer starts, the app will generate a random number then mark that square if it is not already marked. At each turn, the virtualBoard and visualBoard are updated and the board is checked to see if there are any wins.
+
+If the user starts, the app will wait for the user to click on a square that they want to mark. If the computer starts, the app will generate a random number then mark that square if it is not already marked. At each turn, the virtualBoard and visualBoard are updated and the board is checked to see if there are any wins.
 
 3. Winning Conditions (checkWin())
-    At each turn, there are 8 winning conditions (main.js > winningConditions) and a draw possibility. We will check all of these and know there is a win on the board if the board is filled on the correct spots with the same mark.
+
+At each turn, there are 8 winning conditions (main.js > winningConditions) and a draw possibility. We will check all of these and know there is a win on the board if the board is filled on the correct spots with the same mark.
 
 4. Results (animation(idx))
-    When there is a win from the user/computer or a draw, an animation will highlight the board squares that have the win or the entire board for a draw. The appropriate score will be updated.
+
+When there is a win from the user/computer or a draw, an animation will highlight the board squares that have the win or the entire board for a draw. The appropriate score will be updated.
 
 5. Board Clean Up + Set Up (pointerEvents(enable))
-    The game ends and no further moves are allowed, so all pointer events are disabled. Additionally, user pointer events are disabled/enabled at certain points in the game, such as when it is the computer's turn to play or when the app is checking for a win.
-    There is an option to start the game again and it will keep the score until the browser is reloaded.
+
+The game ends and no further moves are allowed, so all pointer events are disabled. Additionally, user pointer events are disabled/enabled at certain points in the game, such as when it is the computer's turn to play or when the app is checking for a win.
+There is an option to start the game again and it will keep the score until the browser is reloaded.
 
 ## Approach
 
