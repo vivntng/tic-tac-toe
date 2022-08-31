@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Tic-Tac-Toe web application, Candy Crush themed">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@700&display=swap&text=Tic-Tac-Toe" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <div id="split">
+        <div class="halves">
+            <h1>Tic Tac Toe</h1>
+
+            <div id="firstHalf">
+                <h2 id="gameStatus">It's player's turn</h2>
+                <table>
+                    <tr>
+                      <th>You <img class="imgTable" src="src/bluecandy.webp" alt="User's tic tac toe symbol: blue candy"/></th>
+                      <th>Draw</th>
+                      <th>Computer <img class="imgTable" src="src/redcandy.webp" alt="Computer's tic tac toe symbol: red candy"/></th>
+                    </tr>
+                    <tr>
+                      <td id="userScore">0</td>
+                      <td id="drawScore">0</td>
+                      <td id="computerScore">0</td>
+                    </tr>
+                  </table>
+                <button id="newGame">New Game</button>
+            </div>
+        </div>
+
+        <div class="halves">
+            <div id="board">
+                <div class="square" id="0"><img class="imgSquare"/></div>
+                <div class="square" id="1"><img class="imgSquare"/></div>
+                <div class="square" id="2"><img class="imgSquare"/></div>
+                <div class="square" id="3"><img class="imgSquare"/></div>
+                <div class="square" id="4"><img class="imgSquare"/></div>
+                <div class="square" id="5"><img class="imgSquare"/></div>
+                <div class="square" id="6"><img class="imgSquare"/></div>
+                <div class="square" id="7"><img class="imgSquare"/></div>
+                <div class="square" id="8"><img class="imgSquare"/></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
