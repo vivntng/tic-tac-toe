@@ -33,15 +33,15 @@ This project is a Tic-Tac-Toe web application where the user can play against a 
 ## Approach
 
 First, I played a few games of tic tac toe to remind myself of the game rules and requirements I would need for the web app. This way, I found that there were 8 winning conditions and a possibility for a draw.
-![Win Conditions Brainstorm](winConditionsBrainstorm.jpeg)  
+![Win Conditions Brainstorm](src/winConditionsBrainstorm.jpeg)  
 <br>
 
 Then I started listing the main features that would be necessary for a game of tic-tac-toe.
-![Features Brainstorm](featuresBrainstorm.jpeg)
+![Features Brainstorm](src/featuresBrainstorm.jpeg)
 <br>
 
 Then I drafted a sketch of what I wanted the web app to look like. This is the final iteration:
-![UI Sketch](UISketch.jpeg)
+![UI Sketch](src/UISketch.jpeg)
 <br>
 
 I completed the HTML and some basic CSS before attacking the JS, which would get us all the functionalities for the web app. 
