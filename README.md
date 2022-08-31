@@ -66,3 +66,4 @@ To be honest, I had lost my touch with the basics of CSS Flexboxes. I had a quic
 3. MDN Web Docs - https://developer.mozilla.org/en-US/
 4. Google Fonts - https://developers.google.com/fonts/docs/getting_started, https://fonts.google.com/specimen/Oleo+Script
 5. Animation CodePen - https://codepen.io/Jtwa/pen/dYvLpN
+6. How to deploy Heroku app - https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b
